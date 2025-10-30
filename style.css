@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+    color: #687279;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.navbar {
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+    /* background-color: #0c084c  ; */
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    /* justify-content: flex-end; */
+    margin-left: 850px;
+    text-decoration: none;
+    
+}
+ul li a {
+    margin: 5px;
+    text-decoration: none;
+    color: #687279;
+    margin-left: 20px;
+}
+
+.hk ul{   
+    list-style: none;
+    /* width: 100%; */
+    display: flex;
+    margin: 5px;
+    background-color: #f1a204;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: */
+
+}
+
+.hk ul li a {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    /* align-items: center; */
+    width: 100%;
+    
+}
+
+.hk ul:hover {
+    background-color: darkblue;
+}
+
+.menu a:hover{
+    color: crimson;
+}
+
+.container .hero {
+    display: flex;
+    margin: auto;
+    gap: 100px;
+    width: 110%;
+    /* background-color: #0c084c; */
+}
+
+span{
+    color: #687279;
+}
+.container .hero .teks{
+    font-size: 20px;
+    color: #0c084c;
+    font-family: 'poppins', sans-serif;
+}
+
+.teks h3 {
+    font-size: 21px;
+    color: #f1a204;
+    margin-bottom: 10px;
+}
+.teks h1 {
+    font-size: 43px;
+    margin-bottom: 10px;
+    color: #0c084c;
+}
+.teks h4 {
+    margin-bottom: 10px;
+    color: #0c084c;
+}
+.kotaklihat{
+    display: flex;
+    margin-top: 30px;
+    
+}
+a.program{
+    color: #0c084c;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+a.daftar{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    background-color: #f1a204;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+i.fa-brands{
+    color: #f1f1f1;
+    margin: 10px;
+}
+.jurusan ul li{
+    list-style-type: none;
+    
+}
+i.fa-circle-check{
+    margin: 10px;
+    color: #f1a204;
+}
+.teks2 {
+    color: #0c084c;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.logo2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    color: #0c084c;
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        /* background-color: #0c084c; */
+        margin: auto;
+        padding: 0;
+        text-align: center;
+        width: 30%
+    }
+
+    .teks {
+        background-color: bisque;
+        margin: auto;
+    }       
+    
+}

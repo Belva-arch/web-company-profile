@@ -1,0 +1,171 @@
+* {
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: 100px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    margin: 70px;
+    /* margin-left: 30%; */
+}
+
+.video1 {
+    text-align: center;
+    font-size: 24px;
+    color: #0C084C;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.sui {
+    display: flex;
+}
+
+.portidkv , .portitkj {
+    margin-left: 35px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 43px;
+    color: #0C084C;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.small-font {
+    font-weight: 300;
+}
+
+.paragraf {
+    font-weight: 300;
+    font-size: 14px;
+    /* margin-left: 20px; */
+}
+
+ul {
+    list-style: none;
+}
+
+.lihat2 {
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #0C084C;
+    text-decoration: none;
+
+}
+
+.lihat2:hover {
+    background-color: #0C084C;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-paper-plane {
+    color: #ffffff;
+}
+
+.fa-circle-check {
+    color: #F1A204;
+}
+
+.lemarirpl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 80px;
+}
+
+/* .gambar9 {
+    display: flex;
+} */
+
+.judul7 {
+    flex: 1;
+    max-width: 45%;
+}
+
+.menu-rpl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.menu1-rpl,
+.menu2-rpl,
+.menu3-rpl,
+.menu4-rpl {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu1-rpl:hover,
+.menu2-rpl:hover,
+.menu3-rpl:hover,
+.menu4-rpl:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* Gambar Project */
+.gambar-projek {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.gambar-projek img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Info Project */
+.info-projek {
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .menu-rpl {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .menu-rpl {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .menu-rpl {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container-porto {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
