@@ -10,8 +10,9 @@ body {
     background-color: #f1f1f1;
 }
 .container {
-    width: 75%;
+    width: 95%;
     margin: auto;
+    margin-right: 18%;
     /* background-color: blueviolet; */
 }
 .smallFont{
@@ -20,7 +21,7 @@ body {
 }
 
 .navbar {
-    padding: 5px 0px 30px 0px;
+    padding: 5px 0px  30px 0px;
     display: flex;
     justify-content: space-between;
     /* align-items: flex-start; */
