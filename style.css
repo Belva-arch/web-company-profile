@@ -12,13 +12,18 @@ body {
 .container {
     width: 75%;
     margin: auto;
+    /* background-color: blueviolet; */
+}
+.smallFont{
+    font-weight: 300;
+    color: #0c084c;
 }
 
 .navbar {
-    padding: 40px 0px 40px 0px;
+    padding: 5px 0px 30px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     align-items: center;
     /* background-color: #0c084c  ; */
 }
@@ -26,11 +31,12 @@ body {
 .menu ul{
     list-style: none;
     display: flex;
-    margin: 5px;
+    /* margin: 5px; */
     /* justify-content: flex-end; */
-    margin-left: 850px;
+    margin-left: 800px;
     text-decoration: none;
-    
+    font-weight: 600;
+    align-items: center;
 }
 ul li a {
     margin: 5px;
@@ -51,7 +57,9 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
     /* padding-right: */
+    transition: 0.5s;
 
 }
 
@@ -67,7 +75,9 @@ ul li a {
 .hk ul:hover {
     background-color: darkblue;
 }
-
+.menu a{
+    transition: 0.5s;
+}
 .menu a:hover{
     color: crimson;
 }
@@ -75,9 +85,9 @@ ul li a {
 .container .hero {
     display: flex;
     margin: auto;
-    gap: 100px;
-    width: 110%;
-    /* background-color: #0c084c; */
+    /* gap: 100px; */
+    width: 90%;
+    /* background-color: #585858; */
 }
 
 span{
@@ -87,21 +97,28 @@ span{
     font-size: 20px;
     color: #0c084c;
     font-family: 'poppins', sans-serif;
+    /* background-color: aqua; */
+    width: 50%;
+}
+.foto{
+    /* background-color: #f1a204; */
+    text-align: end;
 }
 
 .teks h3 {
-    font-size: 21px;
+    font-size: 16px;
     color: #f1a204;
-    margin-bottom: 10px;
 }
 .teks h1 {
     font-size: 43px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #0c084c;
+    text-align: start;
 }
 .teks h4 {
     margin-bottom: 10px;
     color: #0c084c;
+    font-size: 15px;
 }
 .kotaklihat{
     display: flex;
@@ -114,8 +131,9 @@ a.program{
     margin-right: 10px;
     background-color: #f1f1f1;
     border: 2px solid black;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 5px;
+    text-align: center;
 }
 a.daftar{
     text-decoration: none;
@@ -131,7 +149,7 @@ i.fa-brands{
 }
 .jurusan ul li{
     list-style-type: none;
-    
+    font-size: 16px;
 }
 i.fa-circle-check{
     margin: 10px;
@@ -166,7 +184,8 @@ i.fa-circle-check{
         margin: auto;
         padding: 0;
         text-align: center;
-        width: 30%
+        width: 30%;
+        flex-direction: column;
     }
 
     .teks {

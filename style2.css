@@ -3,7 +3,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.jurusan {
+.jurusan1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -14,9 +14,9 @@ body {
     margin: 0 auto;
 }
 
-.jurusan .tkj,
-.jurusan .dkv,
-.jurusan .rpl {
+.jurusan1 .tkj,
+.jurusan1 .dkv,
+.jurusan1 .rpl {
     background-color: rgb(224, 235, 235);
     color: #111518;
     padding: 10px;
@@ -28,9 +28,9 @@ body {
     max-width: 400px;
 }
 
-.jurusan .tkj .judul,
-.jurusan .dkv .judul2,
-.jurusan .rpl .judul3 {
+.jurusan1 .tkj .judul,
+.jurusan1 .dkv .judul2,
+.jurusan1 .rpl .judul3 {
     background-color: orange;
     color: white;
     text-align: center;
@@ -39,9 +39,9 @@ body {
     border-radius: 5px;
 }
 
-.jurusan .tkj .silabus,
-.jurusan .dkv .silabus2,
-.jurusan .rpl .silabus3 {
+.jurusan1 .tkj .silabus,
+.jurusan1 .dkv .silabus2,
+.jurusan1 .rpl .silabus3 {
     background-color: #0c084c;
     color: white;
     text-align: center;
@@ -62,9 +62,9 @@ h3 {
     color: #0c084c;
 }
 
-.jurusan .tkj .list,
-.jurusan .dkv .list2,
-.jurusan .rpl .list3 {
+.jurusan1 .tkj .list,
+.jurusan1 .dkv .list2,
+.jurusan1 .rpl .list3 {
     color: #687279;
 }
 
