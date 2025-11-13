@@ -12,7 +12,7 @@ body {
 .container {
     width: 95%;
     margin: auto;
-    margin-right: 18%;
+    /* margin-right: 18%; */
     /* background-color: blueviolet; */
 }
 .smallFont{
